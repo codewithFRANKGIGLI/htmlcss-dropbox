@@ -70,9 +70,9 @@ header a:hover {
 /* #region MAIN */
 /* #region HERO-IMAGE */
 h1 {
-    font-size: xx-large;
     padding-bottom: 48px;
     font-size: 56px;
+    font-weight: 800;
     padding-top: 16px;
 }
 .hero-image {
