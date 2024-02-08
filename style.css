@@ -25,6 +25,7 @@ body {
     max-width: 1200px;
     margin: auto;
     width: 80%;
+    padding: 60px 0;
 }
 /* #endregion GENERAL */
 /* #region BUTTONS */
@@ -66,3 +67,35 @@ header a:hover {
     margin-right: 20px;
 }
 /* #endregion HEADER */
+/* #region MAIN */
+/* #region HERO-IMAGE */
+h1 {
+    font-size: xx-large;
+    padding-bottom: 48px;
+    font-size: 56px;
+    padding-top: 16px;
+}
+.hero-image {
+    background-color: #b4d0e7;
+    height: 590px;
+}
+.small-col {
+    width: 40%;
+}
+.small-col > p {
+    padding-bottom: 32px;
+}
+.small-col > div {
+    padding-top: 32px;
+}
+.arrow-down {
+    font-size: 24px;
+}
+.big-col {
+    width: 60%;
+}
+.hero-image > .container > .row > .big-col > img {
+    height: 368px
+}
+/* #endregion hero image */
+/* #endregion MAIN */
