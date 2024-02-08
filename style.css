@@ -55,7 +55,7 @@ nav > a {
     transition: 0.2s;
 }
 header a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #0061ff;
 }
 .left-nav, .right-nav {
     gap: 10px;
