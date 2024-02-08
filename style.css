@@ -240,7 +240,6 @@ hr + h5 {
 .card > h3 {
     padding-bottom: 24px;
 }
-/* #region clients */
 .clients {
     width: calc(100% / 3);
 }
