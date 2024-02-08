@@ -1,0 +1,19 @@
+/* #region RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* #endregion RESET */
+/* #region GENERAL */
+.flexible {
+    display: flex;
+}
+/* #endregion GENERAL */
+/* #region BUTTONS */
+
+/* #endregion BUTTONS */
