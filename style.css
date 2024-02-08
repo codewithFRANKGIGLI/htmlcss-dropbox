@@ -9,11 +9,60 @@ html {
     scroll-behavior: smooth;
 }
 /* #endregion RESET */
+/* #region DEBUG */
+.debug {
+    border: 2px dashed red;
+}
+/* #endregion DEBUG */
 /* #region GENERAL */
 .flexible {
     display: flex;
 }
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    width: 80%;
+}
 /* #endregion GENERAL */
 /* #region BUTTONS */
-
+.btn-blue {
+    color: white;
+    background-color: #0061ff;
+    padding: 6px 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.btn-blue:hover {
+    filter: brightness(150%);
+}
 /* #endregion BUTTONS */
+/* #region HEADER */
+header {
+    background-color: white;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 5px 5px -3px rgba(130, 130, 130, 0.3);
+}
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    transition: 0.2s;
+}
+header a:hover {
+    border-bottom: 1px solid black;
+}
+.left-nav, .right-nav {
+    gap: 10px;
+    font-size: 16px;
+}
+.right-nav > a:last-child {
+    align-self: center;
+    margin-right: 20px;
+}
+/* #endregion HEADER */
