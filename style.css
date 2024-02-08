@@ -18,6 +18,9 @@ html {
 .flexible {
     display: flex;
 }
+.wrap {
+    flex-wrap: wrap;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -30,11 +33,15 @@ body {
 section {
     background-color: white;
 }
-.pad-xy {
+.padd {
     padding: 96px 48px;
 }
-.padb-s {
+.padd-bot {
     padding-bottom: 14px;
+}
+.padd-sides {
+    padding-right: 56px;
+    padding-left: 56px;
 }
 .space-btw {
     justify-content: space-between;
@@ -60,6 +67,21 @@ h2 {
 }
 .btn-blue:hover {
     filter: brightness(150%);
+}
+.btn-white-bb{
+    color: black;
+    background-color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid black;
+    transition: .5s;
+}
+.btn-white-bb:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 /* #endregion BUTTONS */
 /* #region HEADER */
@@ -150,7 +172,7 @@ input + input {
 }
 .main-col {
     border: 1px solid lightgray;
-    padding: 28px 24px;
+    padding: 28px 38px;
     margin-bottom: 32px;
 }
 .card-col {
@@ -183,6 +205,65 @@ input + input {
 }
 hr + h5 {
     padding-bottom: 16px;
+}
+.large-col > .main-col > .flexible {
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+.large-col > .main-col > .flexible + div {
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+.second-section > .container > .row > .big-col > img {
+    width: 100%;
+}
+.second-section > .container > .row > .small-col {
+    padding-left: 32px;
+    padding-top: 48px;
+}
+.small-col > h3 {
+    font-size: 32px;
+    padding-bottom: 32px;
+}
+.card {
+    width: calc(100%/3);
+    padding: 24px;
+}
+.card:hover {
+    box-shadow: 0px 0px 5px black;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.card > img {
+    width: 100%;
+}
+.card > h3 {
+    padding-bottom: 24px;
+}
+/* #region clients */
+.clients {
+    width: calc(100% / 3);
+}
+.center-client {
+    padding: 40px;
+}
+.clients > img {
+    width: 50%;
+    padding-bottom: 32px;
+}
+.client {
+    width: calc(100% / 2);
+    aspect-ratio: 1;
+    justify-content:center;
+    align-items: center;
+    transition: .3s;
+}
+.client:hover {
+    border: 15px solid rgba(250, 250, 250, 0.2);
+}
+.client > img {
+    filter: invert(1);
+    width: 50%;
 }
 
 /* #endregion MAIN */
