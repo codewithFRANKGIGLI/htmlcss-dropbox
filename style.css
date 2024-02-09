@@ -68,7 +68,7 @@ h2 {
 .btn-blue:hover {
     filter: brightness(150%);
 }
-.btn-white-bb{
+.btn-white{
     color: black;
     background-color: white;
     padding: 8px 16px;
@@ -77,7 +77,7 @@ h2 {
     border: 1px solid black;
     transition: .5s;
 }
-.btn-white-bb:hover {
+.btn-white:hover {
     color: white;
     background-color: #0061ff;
     border: 1px solid transparent;
@@ -264,8 +264,44 @@ hr + h5 {
     filter: invert(1);
     width: 50%;
 }
-.card > h3 {
-    padding-bottom: 24px;
+.free-trial {
+    background-color: #b4d0e7;
+    justify-content: space-between;
 }
-
+.free-trial > div {
+    justify-content: space-between;
+}
+.free_trial > div > h2 {
+    width: 60%;
+    color: #61092a;
+}
+.fifth-section {
+    padding-top: 16px;
+    padding-bottom: 64px;
+}
+.faq {
+    border-top: 1px solid lightgray;
+    padding: 32px 0;
+}
+.container .faq:last-child {
+    border-bottom: 1px solid lightgray;
+}
+.ask {
+    justify-content: space-between;
+    font-weight: 600;    
+}
+.fa-angle-down {
+    transition: .5s;
+}
+.answer {
+    padding: 16px 48px;
+    padding-top: 32px;
+    display: none;
+}
+.faq:hover .answer {
+  display: inline-block;
+}
+.faq:hover .fa-angle-down {
+  transform: rotate(180deg);
+}
 /* #endregion MAIN */
