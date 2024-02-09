@@ -271,7 +271,7 @@ hr + h5 {
 .free-trial > div {
     justify-content: space-between;
 }
-.free_trial > div > h2 {
+.free-trial > div > h2 {
     width: 60%;
     color: #61092a;
 }
