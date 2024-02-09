@@ -315,30 +315,30 @@ footer {
     width: calc(100% / 5);
 }
 h4 {
-    font-size: 1.4rem;
-    padding: 2rem 0;
+    font-size: 22px;
+    padding: 32px 0;
 }
 li {
     list-style: none;
-    margin-bottom: 0.8rem;
+    margin-bottom: 13px;
     font-weight: 100;
 }
 #foot-hr {
-    margin-top: 6rem;
-    margin-bottom: 2rem;
+    margin-top: 96px;
+    margin-bottom: 32px;
     width: 15%;
 }
 .language {
     color: #999999;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
 }
 li:hover, li > a:hover {
     color: #0061ff;
 }
 li > a {
     text-decoration: none;
-    color: var(--db-light);
+    color: white;
     transition: 0.4s;
 }
 /* #endregion FOOTER */
