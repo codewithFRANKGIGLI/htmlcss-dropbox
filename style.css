@@ -78,9 +78,9 @@ h2 {
     transition: .5s;
 }
 .btn-white-bb:hover {
-    color: black;
-    background-color: white;
-    border: 1px solid black;
+    color: white;
+    background-color: #0061ff;
+    border: 1px solid transparent;
     border-radius: 20px;
 }
 /* #endregion BUTTONS */
