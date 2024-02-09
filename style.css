@@ -115,13 +115,13 @@ header a:hover {
 /* #region HERO-IMAGE */
 h1 {
     padding-bottom: 48px;
-    font-size: 56px;
+    font-size: 80px;
     font-weight: 800;
     padding-top: 16px;
 }
 .hero-image {
     background-color: #b4d0e7;
-    height: 590px;
+    height: 650px;
 }
 .small-col {
     width: 30%;
@@ -139,7 +139,7 @@ h1 {
     width: 70%;
 }
 .hero-image > .container > .row > .big-col > img {
-    height: 380px
+    height: 380px;
 }
 /* #endregion hero image */
 /* #region SECTIONS */
