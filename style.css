@@ -307,7 +307,38 @@ hr + h5 {
 /* #endregion SECTIONS */
 /* #endregion MAIN */
 /* #region FOOTER */
-
-
+footer {
+    background-color: black;
+    color: white;
+}
+.foot-col {
+    width: calc(100% / 5);
+}
+h4 {
+    font-size: 1.4rem;
+    padding: 2rem 0;
+}
+li {
+    list-style: none;
+    margin-bottom: 0.8rem;
+    font-weight: 100;
+}
+#foot-hr {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    width: 15%;
+}
+.language {
+    color: #999999;
+    align-items: center;
+    gap: 1rem;
+}
+li:hover, li > a:hover {
+    color: #0061ff;
+}
+li > a {
+    text-decoration: none;
+    color: var(--db-light);
+    transition: 0.4s;
+}
 /* #endregion FOOTER */
-
