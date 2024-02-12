@@ -278,30 +278,32 @@ hr + h5 {
 .fifth-section {
     padding-bottom: 64px;
 }
-.faq {
-    border-top: 1px solid lightgray;
-    padding: 32px 0;
+.fifth-section input {
+    display: none;
 }
-.container .faq:last-child {
+label {
+    display: block;    
+    padding: 40px 0;
+    cursor: pointer;
+    transition: ease 1s;
+    border-top: 1px solid lightgray;
+}
+.content {
+    padding: 0px 48px;
+    margin-bottom: 30px;
+}
+input + label + .content {
+    display: none;
+}
+input:checked + label + .content {
+    display: block;
+}
+label:last-of-type {
     border-bottom: 1px solid lightgray;
 }
 .ask {
     justify-content: space-between;
     font-weight: 600;    
-}
-.fa-angle-down {
-    transition: .5s;
-}
-.answer {
-    padding: 16px 48px;
-    padding-top: 32px;
-    display: none;
-}
-.faq:hover .answer {
-  display: inline-block;
-}
-.faq:hover .fa-angle-down {
-  transform: rotate(180deg);
 }
 /* #endregion SECTIONS */
 /* #endregion MAIN */
