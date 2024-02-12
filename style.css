@@ -27,14 +27,13 @@ body {
 .container {
     max-width: 1200px;
     margin: auto;
-    width: 80%;
     padding: 48px 0;
 }
 section {
     background-color: white;
 }
 .padd {
-    padding: 96px 48px;
+    padding: 80px 48px;
 }
 .padd-bot {
     padding-bottom: 14px;
@@ -121,26 +120,26 @@ h1 {
 }
 .hero-image {
     background-color: #b4d0e7;
+    max-height: 740px;
 }
-.small-col {
+.hero-image .small-col {
     width: 30%;
 }
 .small-col > p {
     padding-bottom: 32px;
 }
 .small-col > div {
-    padding-top: 20px;
+    padding-top: 60px;
 }
 .arrow-down {
     font-size: 24px;
 }
-.big-col {
+.hero-image .big-col {
     width: 70%;
 }
 .hero-image > .container > .row > .big-col > img {
-    max-height: 380px;
+    width: 840px;
     position: absolute;
-    bottom: -14px;
 }
 /* #endregion hero image */
 /* #region SECTIONS */
@@ -277,7 +276,6 @@ hr + h5 {
     color: #61092a;
 }
 .fifth-section {
-    padding-top: 16px;
     padding-bottom: 64px;
 }
 .faq {
